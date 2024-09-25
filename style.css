@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.container {
+  margin: 178px auto 81.37px auto;
+  margin-top: 178px;
+  width: 90%;
+}
+
+.cont-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+}
+
+.cont-top > h2 {
+  margin: 5px 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 29.41px;
+  line-height: 45px;
+}
+
+.cont-top > a {
+  margin: 5px 15px;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cont-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cont-cards > div {
+  margin: 0px 15px 30px 15px;
+  padding: 11px;
+  border: 1px solid rgba(231, 230, 230, 1);
+}
+
+.cont-cards > div > img {
+  width: 100%;
+}
+
+p > span {
+  width: 16.2px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.cont-cards > div > p:nth-child(2) {
+  font-family: Inter;
+  font-size: 12.29px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+
+.cont-cards > div > h3 {
+  font-family: Inter;
+  font-size: 15.88px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating > span {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+  margin: 0pc 4.8px 0px 0px;
+}
+.rating > p {
+  font-family: Inter;
+  font-size: 12.49px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  margin-left: 9.8px;
+}
+
+.card-foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-foot > p {
+  font-family: Inter;
+  font-size: 12.59px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+
+.card-foot > div {
+  display: flex;
+  align-items: center;
+}
+
+.card-foot > div > p:first-child {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+
+.card-foot > div > p:nth-child(2) {
+  font-family: Inter;
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
